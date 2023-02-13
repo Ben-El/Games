@@ -5,6 +5,8 @@
 gradle-app.setting
 Games.iml
 misc.iml
+misc.xml
+workspace.xml
 mudules.xml
 vcs.xml
 
