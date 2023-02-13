@@ -8,6 +8,7 @@ public class TicTacToe {
         int roundCounter = 0;
         Cell[] board = new Cell[10];
 
+
         for (int i = 0; i < board.length; i++)
             board[i] = new Cell();
 
