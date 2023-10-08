@@ -1,3 +1,6 @@
+import lombok.Data;
+
+@Data
 public class Cell {
     private char sign;
     private String color;
@@ -13,21 +16,5 @@ public class Cell {
     public Cell(char sign) {
         this.sign = sign;
         this.color = DEFAULT_COLOR;
-    }
-
-    public char getSign() {
-        return this.sign;
-    }
-
-    public String getColor() {
-        return this.color;
-    }
-
-    public void setSign(char sign) {
-        this.sign = sign;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
     }
 }
