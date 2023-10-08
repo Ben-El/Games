@@ -1,6 +1,6 @@
 import lombok.Data;
 
-@Data
+@Data //
 public class Cell {
     private char sign;
     private String color;
