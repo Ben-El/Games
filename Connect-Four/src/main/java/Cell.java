@@ -6,7 +6,7 @@ public class Cell {
     private String color;
 
     public static final String DEFAULT_COLOR = "\u001B[0m";
-    public static final String WINNING_COLOR = "\033[4;32m"; //
+    public static final String WINNING_COLOR = "\033[4;32m";
 
     public Cell() {
         this.sign = '-';
