@@ -32,11 +32,10 @@ public class TicTacToe {
                     System.out.println("\nIt's a draw!!!");
                     break;
                 } else printBoard(board);
-            } else continue;
-            //
 
-            if (player == 'X') player = 'O';
-            else player = 'X';
+                if (player == 'X') player = 'O';
+                else player = 'X';
+            }
         }
     }
 
