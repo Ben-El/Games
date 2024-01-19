@@ -33,6 +33,7 @@ public class TicTacToe {
                     break;
                 } else printBoard(board);
             } else continue;
+            //
 
             if (player == 'X') player = 'O';
             else player = 'X';
