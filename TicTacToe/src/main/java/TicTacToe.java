@@ -18,7 +18,7 @@ public class TicTacToe {
         while (true) {
             System.out.print("\nPlayer " + player + ", choose a cell (1 - 9):  ");
             int cellChoice = sc.nextInt();
-            //
+
 
             if (isValidInput(board, cellChoice)) {
                 roundCounter++;
