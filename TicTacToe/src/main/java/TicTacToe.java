@@ -34,7 +34,7 @@ public class TicTacToe {
                 } else printBoard(board);
 
                 if (player == 'X') player = 'O';
-                else player = 'X';//
+                else player = 'X';
             }
         }
     }
