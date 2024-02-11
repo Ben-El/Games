@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping(value = "api/v1/users")
+@RequestMapping(value = "api/v1/users") //
 public class UserController {
 
     private final UserJooqDao userJooqDao;
